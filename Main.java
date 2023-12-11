@@ -5,12 +5,15 @@ public class Main {
     public static void main(String[] args) {
         ABB arbol = new ABB();
 
-        // Insertar valores 25, 8, 29, 38, 27
-    arbol.insertarValor(25);
-    arbol.insertarValor(8);
-    arbol.insertarValor(29);
-    arbol.insertarValor(38);
-    arbol.insertarValor(27);
+        // Insertar valores 9,2,1,16,6,11,8,4
+        arbol.insertarValor(9);
+        arbol.insertarValor(2);
+        arbol.insertarValor(1);
+        arbol.insertarValor(16);
+        arbol.insertarValor(6);
+        arbol.insertarValor(11);
+        arbol.insertarValor(8);
+        arbol.insertarValor(4);
 
         // Mostrar el árbol horizontalmente
         arbol.mostrarHorizontal(0, arbol.getRaiz());
